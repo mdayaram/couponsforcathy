@@ -4,4 +4,10 @@
   value: "one full tank of gas",
   reason: "for driving Manoj home from Costco",
 }
+- {
+  created_at: "2023-06-18",
+  redeemed_at: "2023-06-18",
+  value: "one Costco mocha freeze and 3 nectarines",
+  reason: "for driving Manoj home from Costco",
+}
 
