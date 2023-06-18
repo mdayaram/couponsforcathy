@@ -2,6 +2,13 @@
 layout: default
 ---
 
+# [Digital] Coupons for Cathy
+
+Cathy keeps losing her coupons and complaining that Manoj doesn't accept photos
+of them, so we are now forced to go digital. Below is a list of all coupons that
+Cathy has from Manoj.
+
+
 <table>
   <thead>
     <tr>

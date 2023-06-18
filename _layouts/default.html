@@ -1,8 +1,65 @@
 <html>
   <head>
     <title>Coupons for Cathy</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .cathy-image {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .cathy-image img {
+        max-width: 100%;
+        border-radius: 50%;
+      }
+
+      .coupons {
+        flex: 2;
+        padding: 20px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      th, td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f0f0f0;
+      }
+
+      td {
+        background-color: #fff;
+      }
+    </style>
   </head>
   <body>
-    {{ content }}
+    <div class="container">
+      <div class="cathy-image">
+        <img src="/imgs/cathy.jpg" />
+      </div>
+      <div class="coupons">
+        {{ content }}
+      </div>
+    </div>
   </body>
 </html>
