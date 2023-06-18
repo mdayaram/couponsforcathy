@@ -24,7 +24,13 @@ Cathy has from Manoj.
       <td>{{ coupon.created_at }}</td>
       <td>{{ coupon.value }}</td>
       <td>{{ coupon.reason }}</td>
-      <td>{{ coupon.redeemed_at | default: "Not redeemed yet." }}</td>
+      <td>
+        {%- if coupon.redeemed_at == null or coupon.redeemed_at == "" -%}
+        <a class="redeem" href="https://github.com/mdayaram/couponsforcathy.com/issues/new?title=Redeeming {{ coupon.value }}">Redeem Now!</a>
+        {%- else -%}
+        Redeemed on {{ coupon.redeemed_at }}
+        {%- endif -%}
+      </td>
     </tr>
 {%- endfor -%}
   </tbody>
