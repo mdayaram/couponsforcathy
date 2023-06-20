@@ -1,4 +1,10 @@
 - {
+  created_at: "2023-06-20",
+  redeemed_at: null,
+  value: "$5",
+  reason: "because Manoj accidentally overcharged Cathy $5 for brunch on 6/18/23",
+}
+- {
   created_at: "2023-06-18",
   redeemed_at: null,
   value: "one full tank of gas",
