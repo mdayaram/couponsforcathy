@@ -13,6 +13,8 @@ Cathy has from Manoj.
   <thead>
     <tr>
       <th>Created</th>
+      <th>From</th>
+      <th>To</th>
       <th>Coupon Value</th>
       <th>Reasons</th>
       <th>Redemption Status</th>
@@ -22,6 +24,8 @@ Cathy has from Manoj.
 {%- for coupon in site.data.coupons -%}
     <tr>
       <td>{{ coupon.created_at }}</td>
+      <td>{{ coupon.from }}</td>
+      <td>{{ coupon.to }}</td>
       <td>{{ coupon.value }}</td>
       <td>{{ coupon.reason }}</td>
       <td>
