@@ -1,4 +1,12 @@
 - {
+  created_at: "2023-07-24",
+  from: "Cathy",
+  to: "Manoj",
+  redeemed_at: null,
+  value: "Infinity boba tea in Taiwan",
+  reason: "Incentive to go to Taiwan with Cathy to get Manoj's gold card.",
+}
+- {
   created_at: "2023-06-20",
   from: "Manoj",
   to: "Cathy",
