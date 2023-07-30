@@ -1,4 +1,12 @@
 - {
+  created_at: "2023-07-29",
+  from: "Manoj",
+  to: "Cathy",
+  redeemed_at: null,
+  value: "Mega Millions lottery ticket",
+  reason: "Hot pot and dessert in San Mateo",
+}
+- {
   created_at: "2023-07-24",
   from: "Cathy",
   to: "Manoj",
